@@ -4,8 +4,8 @@ import { Connect } from 'aws-amplify-react';
 import { graphqlOperation } from 'aws-amplify';
 import { listMarkets } from '../graphql/queries';
 import { onCreateMarket } from '../graphql/subscriptions';
-import Error from './Error';
 import { Link } from 'react-router-dom';
+import Error from './Error';
 
 const MarketList = ({ term, searchResults }) => {
 	return (
